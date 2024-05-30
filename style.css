@@ -487,114 +487,112 @@ section .title::after {
     text-align: center;
     }
     
-    /* Media Queries */
-    @media(max-width: 1200px) {
+/* Media Queries */
+@media(max-width: 1200px) {
     .max-width {
-    padding: 0 50px;
+        padding: 0 50px;
     }
-    }
-    
-    @media(max-width: 1080px) {
+}
+
+@media(max-width: 1080px) {
     .max-width {
-    padding: 0 40px;
+        padding: 0 40px;
     }
-    }
-    
-    @media(max-width: 991px) {
+}
+
+@media(max-width: 991px) {
     .max-width {
-    padding: 0 30px;
+        padding: 0 30px;
     }
-    }
-    
-    @media(max-width: 768px) {
+}
+
+@media(max-width: 768px) {
     .max-width {
-    padding: 0 20px;
+        padding: 0 20px;
     }
     .navbar .menu {
-    display: none;
+        display: none;
     }
     .navbar .menu-btn {
-    display: block;
+        display: block;
     }
     .navbar.active .menu {
-    display: block;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    background: #6e6e6e;
-    padding: 10px 0;
-    border-top: 1px solid #fff;
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: #6e6e6e;
+        padding: 10px 0;
+        border-top: 1px solid #fff;
     }
     .navbar.active .menu li {
-    width: 100%;
-    text-align: center;
+        width: 100%;
+        text-align: center;
     }
     .navbar.active .menu li a {
-    margin-left: 0;
-    display: block;
-    padding: 10px 20px;
+        margin-left: 0;
+        display: block;
+        padding: 10px 20px;
     }
-    }
-    
-    @media(max-width: 500px) {
+}
+
+@media(max-width: 500px) {
     .home .home-content .text-2 {
-    font-size: 50px;
+        font-size: 50px;
     }
     .home .home-content .text-3 {
-    font-size: 30px;
+        font-size: 30px;
     }
     .home .home-content a {
-    font-size: 14px;
+        font-size: 14px;
     }
     .about .about-content .right .text {
-    font-size: 24px;
+        font-size: 24px;
     }
     .about .about-content .right p {
-    font-size: 14px;
+        font-size: 14px;
     }
     .about .about-content .right .btn {
-    font-size: 14px;
+        font-size: 14px;
     }
     .services .serv-content .card .box i {
-    font-size: 30px;
+        font-size: 30px;
     }
     .services .serv-content .card .box .text {
-    font-size: 16px;
+        font-size: 16px;
     }
     .services .serv-content .card .box p {
-    font-size: 14px;
+        font-size: 14px;
     }
     .skills .skills-content .text {
-    font-size: 24px;
+        font-size: 24px;
     }
-    .skills .skills-content .column.right .bars .info span
-    {
-    font-size: 16px;
+    .skills .skills-content .column.right .bars .info span:first-child {
+        font-size: 16px;
     }
-    .skills .skills-content .column.right .bars .info span
-    {
-    font-size: 14px;
+    .skills .skills-content .column.right .bars .info span:last-child {
+        font-size: 14px;
     }
     .skills-hobbies .carousel .card .box i {
-    font-size: 30px;
+        font-size: 30px;
     }
     .skills-hobbies .carousel .card .box .text {
-    font-size: 16px;
+        font-size: 16px;
     }
     .skills-hobbies .carousel .card .box p {
-    font-size: 14px;
+        font-size: 14px;
     }
     .contact .contact-content .left .text {
-    font-size: 24px;
+        font-size: 24px;
     }
     .contact .contact-content .left p {
-    font-size: 14px;
+        font-size: 14px;
     }
     .contact .contact-content .right form .field input, .contact .contact-content .right form .textarea textarea {
-    width: calc(100% - 20px);
+        width: calc(100% - 20px);
     }
     .contact .contact-content .right form .button {
-    font-size: 14px;
+        font-size: 14px;
     }
-    }
+}
